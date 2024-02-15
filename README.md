@@ -1,17 +1,53 @@
-# Projet Machine Learning avec Python
-Bienvenue dans le référentiel des projets de machine learning !Le projets que j'ai réalisés dans le cadre du cours "Machine Learning with Python" sur Coursera. Chaque projet met en lumière l'application pratique des modèles spécifique de machine learning.
+# Modèles de Prédiction Météorologique
 
-# Objectif du Projet
-L'objectif principal de ce projet est de partager mes expériences et compétences en matière de machine learning en mettant en avant des implémentations concrètes.  Dossier du projet représente une exploration détaillée d'un modèle particulier, illustrant son utilisation, son code source, et les résultats obtenus.
+##Introduction
+Ce code implémente des modèles d'apprentissage automatique pour prédire la pluie demain en se basant sur les données météorologiques. Les modèles utilisés sont la Régression Linéaire, les k-plus proches voisins (KNN), l'Arbre de Décision, la Régression Logistique et la Machine à Vecteurs de Support (SVM). Les performances des modèles et les courbes d'apprentissage sont également visualisées.
 
-# Projets 
+##Explication du Code
+Importation des Bibliothèques :
 
-Ce script Python met en œuvre plusieurs modèles d'apprentissage automatique (Régression Linéaire, k-Nearest Neighbors, Decision Tree, Logistic Regression et Support Vector Machine) pour la prédiction de la pluie le lendemain en se basant sur diverses caractéristiques météorologiques.
+pandas pour la manipulation des données.
+scikit-learn pour les modèles et les métriques d'apprentissage automatique.
+numpy pour les opérations numériques.
+warnings pour ignorer les avertissements.
+urllib.request pour le téléchargement des données.
+matplotlib pour les graphiques.
+Téléchargement et Chargement des Données :
 
-Le script commence par charger un ensemble de données météorologiques depuis une URL. Ensuite, il effectue un prétraitement des données, notamment la gestion des valeurs manquantes, la conversion des données catégorielles en variables indicatrices, et la transformation des valeurs binaires "Yes/No" en 0 et 1.
+Les données sont téléchargées à partir de l'URL fournie et chargées dans un DataFrame Pandas.
+##Prétraitement :
 
-Il divise ensuite l'ensemble de données en ensembles d'entraînement et de test, puis entraîne différents modèles sur les données d'entraînement. Pour chaque modèle, il évalue les performances en utilisant des métriques telles que l'accuracy, l'index Jaccard, le F1-Score, et la matrice de confusion.
+Les données sont prétraitées, notamment avec l'encodage one-hot et le remplacement des valeurs catégorielles.
+Les caractéristiques et la variable cible sont séparées.
+Régression Linéaire :
 
-Le script inclut également une courbe d'apprentissage pour la Régression Linéaire, montrant comment l'erreur d'entraînement et de validation évolue en fonction de la taille de l'ensemble d'entraînement.
+Le modèle de régression linéaire est entraîné et évalué à l'aide de l'Erreur Absolue Moyenne, de l'Erreur Quadratique Moyenne et du Coefficient de Détermination R2.
+La courbe d'apprentissage est tracée.
+k-plus Proches Voisins (KNN) :
 
-Enfin, les résultats de chaque modèle sont affichés, y compris les métriques d'évaluation et les matrices de confusion.
+Le modèle KNN est entraîné et évalué en utilisant l'exactitude, l'indice Jaccard, le F1-Score et la Matrice de Confusion.
+Arbre de Décision :
+
+Le modèle d'arbre de décision est entraîné et évalué en utilisant l'exactitude, l'indice Jaccard, le F1-Score et la Matrice de Confusion.
+Régression Logistique :
+
+Le modèle de régression logistique est entraîné et évalué en utilisant l'exactitude, l'indice Jaccard, le F1-Score et la Matrice de Confusion.
+Machine à Vecteurs de Support (SVM) :
+
+Le modèle SVM est entraîné et évalué en utilisant l'exactitude, l'indice Jaccard, le F1-Score et la Matrice de Confusion.
+##Sortie
+Tailles des ensembles d'entraînement et de test.
+Métriques pour le modèle de régression linéaire.
+Métriques pour le modèle KNN.
+Métriques pour le modèle d'arbre de décision.
+Métriques pour le modèle de régression logistique.
+Métriques pour le modèle SVM.
+##Notes Importantes
+Les figures sont affichées dans le panneau des graphiques par défaut. Pour les afficher également en ligne dans la console, décochez "Mute inline plotting" dans le menu des options des graphiques.
+Exécution
+Exécutez le code dans un environnement Python, en vous assurant que les bibliothèques requises sont installées. Des ajustements peuvent être nécessaires en fonction de votre environnement spécifique.
+
+##Conclusion
+Les performances des modèles et les courbes d'apprentissage fournissent des informations sur les capacités prédictives de chaque algorithme pour les données météorologiques fournies.
+
+N'hésitez pas à personnaliser et étendre le code pour des analyses ou des expérimentations supplémentaires.
