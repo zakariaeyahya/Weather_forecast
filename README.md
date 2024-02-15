@@ -1,9 +1,9 @@
 # Modèles de Prédiction Météorologique
 
-##Introduction
+## Introduction
 Ce code implémente des modèles d'apprentissage automatique pour prédire la pluie demain en se basant sur les données météorologiques. Les modèles utilisés sont la Régression Linéaire, les k-plus proches voisins (KNN), l'Arbre de Décision, la Régression Logistique et la Machine à Vecteurs de Support (SVM). Les performances des modèles et les courbes d'apprentissage sont également visualisées.
 
-##Explication du Code
+## Explication du Code
 Importation des Bibliothèques :
 
 pandas pour la manipulation des données.
@@ -35,7 +35,7 @@ Le modèle de régression logistique est entraîné et évalué en utilisant l'e
 Machine à Vecteurs de Support (SVM) :
 
 Le modèle SVM est entraîné et évalué en utilisant l'exactitude, l'indice Jaccard, le F1-Score et la Matrice de Confusion.
-##Sortie
+## Sortie
 Tailles des ensembles d'entraînement et de test.
 Métriques pour le modèle de régression linéaire.
 Métriques pour le modèle KNN.
@@ -47,7 +47,7 @@ Les figures sont affichées dans le panneau des graphiques par défaut. Pour les
 Exécution
 Exécutez le code dans un environnement Python, en vous assurant que les bibliothèques requises sont installées. Des ajustements peuvent être nécessaires en fonction de votre environnement spécifique.
 
-##Conclusion
+## Conclusion
 Les performances des modèles et les courbes d'apprentissage fournissent des informations sur les capacités prédictives de chaque algorithme pour les données météorologiques fournies.
 
 N'hésitez pas à personnaliser et étendre le code pour des analyses ou des expérimentations supplémentaires.
