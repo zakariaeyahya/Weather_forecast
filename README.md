@@ -5,7 +5,7 @@ Bienvenue dans le référentiel des projets de machine learning ! Ce dépôt reg
 L'objectif principal de ce projet est de partager mes expériences et compétences en matière de machine learning en mettant en avant des implémentations concrètes. Chaque dossier du projet représente une exploration détaillée d'un modèle particulier, illustrant son utilisation, son code source, et les résultats obtenus.
 
 # Projets Inclus
-Projet 1 - [regression_lineaire] :
+Projet 1 - regression_lineaire :
 Ce projet met en œuvre un modèle de régression linéaire pour prédire les émissions de CO2 en fonction de la taille du moteur, du nombre de cylindres et de la consommation de carburant. La régression linéaire est un choix naturel pour modéliser cette relation linéaire entre les variables d'entrée et la variable cible (émissions de CO2). Cette application pratique permet de comprendre comment les caractéristiques du moteur affectent les émissions de CO2, ce qui peut être crucial pour la conception de véhicules plus respectueux de l'environnement.
 [Liens vers le dossier du projet pour plus de détails]
 Projet 2 - [Knn] :
