@@ -15,7 +15,7 @@ matplotlib pour les graphiques.
 Téléchargement et Chargement des Données :
 
 Les données sont téléchargées à partir de l'URL fournie et chargées dans un DataFrame Pandas.
-##Prétraitement :
+## Prétraitement :
 
 Les données sont prétraitées, notamment avec l'encodage one-hot et le remplacement des valeurs catégorielles.
 Les caractéristiques et la variable cible sont séparées.
@@ -35,7 +35,7 @@ Le modèle de régression logistique est entraîné et évalué en utilisant l'e
 Machine à Vecteurs de Support (SVM) :
 
 Le modèle SVM est entraîné et évalué en utilisant l'exactitude, l'indice Jaccard, le F1-Score et la Matrice de Confusion.
-## Sortie
+## Output
 Tailles des ensembles d'entraînement et de test.
 Métriques pour le modèle de régression linéaire.
 Métriques pour le modèle KNN.
