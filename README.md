@@ -42,10 +42,7 @@ Métriques pour le modèle KNN.
 Métriques pour le modèle d'arbre de décision.
 Métriques pour le modèle de régression logistique.
 Métriques pour le modèle SVM.
-##Notes Importantes
-Les figures sont affichées dans le panneau des graphiques par défaut. Pour les afficher également en ligne dans la console, décochez "Mute inline plotting" dans le menu des options des graphiques.
-Exécution
-Exécutez le code dans un environnement Python, en vous assurant que les bibliothèques requises sont installées. Des ajustements peuvent être nécessaires en fonction de votre environnement spécifique.
+![téléchargement (1)](https://github.com/zakariaeyahya/ML_Projects/assets/155691167/18d44ead-a93b-4d50-80ec-e37c57d821a8)
 
 ## Conclusion
 Les performances des modèles et les courbes d'apprentissage fournissent des informations sur les capacités prédictives de chaque algorithme pour les données météorologiques fournies.
