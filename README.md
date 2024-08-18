@@ -60,26 +60,7 @@
     <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
 </p>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    h1, h2, h3 {
-        color: #2c3e50;
-    }
-    img {
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
-        height: auto;
-    }
-    ul {
-        padding-left: 20px;
+
     }
     p {
         margin-bottom: 15px;
