@@ -59,10 +59,6 @@
     <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
     <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
 </p>
+## 📞 Contact
 
-
-    }
-    p {
-        margin-bottom: 15px;
-    }
-</style>
+Pour plus d'informations, vous pouvez contacter  zakariae yahya : zakariae.yh@gmail.com.
